@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    android:gravity="center" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/lineaHorizontal6"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/rectangulo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Transito"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <view
+        android:id="@+id/lineaHorizontal1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#D8D8D8" />
+
+    <view
+        android:id="@+id/lineaHorizontal4"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="107dp"
+        android:background="#D8D8D8" />
+
+    <view
+        android:id="@+id/lineaHorizontal3"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/lineaHorizontal4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="52dp"
+        android:background="#D8D8D8" />
+
+    <view
+        android:id="@+id/lineaHorizontal2"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/lineaHorizontal3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:background="#D8D8D8" />
+
+    <view
+        android:id="@+id/lineaHorizontal5"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/lineaHorizontal2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="48dp"
+        android:background="#D8D8D8" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lineaHorizontal5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Seleccione una opción"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lineaHorizontal2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Agregar Corte"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Ver Líneas"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lineaHorizontal4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="Agregar Parada"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lineaHorizontal4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="336dp" >
+
+                <LinearLayout
+                    android:id="@+id/Transito"
+                    android:layout_width="match_parent"
+                    android:layout_height="346dp" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Cuenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <view
+        android:id="@+id/lineaHorizontal6"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/lineaHorizontal4"
+        android:layout_marginTop="29dp"
+        android:background="#D8D8D8" />
+
+</RelativeLayout>
