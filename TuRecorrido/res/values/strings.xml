@@ -6,9 +6,12 @@
     <string name="action_settings">Settings</string>
     <string android:id="@+id/string1" name="nombreCuenta" android:layout_width="wrap_content" android:layout_height="wrap_content">Cuenta</string>
     <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_segundo">SegundoActivity</string>
+    <string name="eliminarC">Eliminar Cuenta</string>
+    <string name="modoficarC">Modificar Cuenta</string>
 
-</resources>
-ndroid:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="nombreCuenta">Cuenta</string>
-    
+<!--  </resources>ndroid:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="nombreCuenta">Cuenta<string>
+
+</string><resources>-->
 
 </resources>

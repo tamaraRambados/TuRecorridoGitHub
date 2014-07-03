@@ -26,6 +26,10 @@
             android:name="com.example.turecorrido.Principal"
             android:label="@string/title_activity_principal" >
         </activity>
+        <activity
+            android:name="com.example.turecorrido.SegundoActivity"
+            android:label="@string/title_activity_segundo" >
+        </activity>
     </application>
 
 </manifest>

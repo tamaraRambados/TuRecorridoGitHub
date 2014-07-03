@@ -47,23 +47,24 @@
         android:background="#D8D8D8" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textEliminarCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/lineaHorizontal1"
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignRight="@+id/textView4"
         android:gravity="center"
-        android:text="Eliminar Cuenta"
+        android:onClick="IrAM3"
+        android:text="@string/eliminarC"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textModoficarC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/lineaHorizontal"
         android:layout_alignRight="@+id/textView2"
-        android:text="Modificar Cuenta"
+        android:text="@string/modificarC"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <view
